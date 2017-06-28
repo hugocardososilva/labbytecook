@@ -814,11 +814,12 @@ dl.article-info dd.hits span[class*=" icon-"] {
   padding: 0 15px;
   line-height: 60px;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 500;
   text-transform: capitalize;
   letter-spacing: .3px;
   color: #fff;
 }
+
 .sp-megamenu-parent >li >a:hover {
   color: #ff2e1a;
 }
@@ -1265,7 +1266,7 @@ h3.sp-module-title,
 .sppb-addon-title {
   text-transform: capitalize;
   font-size: 24px;
-  color: #000;
+  /* color: #000; */
   font-weight: 700;
   margin-bottom: 30px;
   margin-top: 0;
@@ -1657,7 +1658,7 @@ ul.social-icons >li a {
 }
 #sp-header {
   background: #000;
-  height: 60px;
+  height: 75px;
   box-shadow: 0 3px 3px rgba(0,0,0,0.05);
 }
 #sp-header .logo {
@@ -2961,10 +2962,11 @@ h3.sppb-addon-title span {
   top: 50%;
   left: 50%;
   margin-top: -20px;
-  color: #000;
+  
   font-size: 24px;
   font-weight: 900;
   cursor: pointer;
+  color: #fff;
 }
 .soccer-latest-news h3.sp-module-title {
   font-weight: 700;
@@ -6017,3 +6019,17 @@ body.rtl.view-article .entry-header .article-infos dl.article-info dd {
 body.rtl.view-article .article-details {
   margin-top: 140px;
 }
+.sticky-wrapper{
+	height: 75px!important;
+}
+.colum-white h2{
+	color: #fff!important;
+}
+.soccer-newsletter .acymailing_form input, .soccer-newsletter input [type="text"]{
+	color: #fff;
+	border-color: #fff;
+}	
+.soccer-newsletter .acymailing_form .acysubbuttons{
+	color: #fff;
+}
+
